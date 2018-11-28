@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-@DynamicUpdate//动态更新:不管字段有没有更新,时间字段都会修改
+@DynamicUpdate(value = false)//动态更新:不管字段有没有更新,时间字段都会修改
 @Data
 public class ProductCategory {
 
