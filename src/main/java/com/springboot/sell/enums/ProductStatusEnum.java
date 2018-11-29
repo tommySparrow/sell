@@ -2,11 +2,6 @@ package com.springboot.sell.enums;
 
 import lombok.Getter;
 
-/**
- * 商品状态
- * Created by 廖师兄
- * 2017-05-09 17:33
- */
 @SuppressWarnings("ALL")
 @Getter
 public enum ProductStatusEnum implements CodeEnum {
