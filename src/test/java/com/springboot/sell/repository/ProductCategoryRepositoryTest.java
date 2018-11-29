@@ -22,8 +22,8 @@ public class ProductCategoryRepositoryTest {
     public void saveTest() {
 
         ProductCategory category = new ProductCategory();
-//        category.setCategoryId(2);
-        category.setCategoryType(90);
+        category.setCategoryId(2);
+        category.setCategoryType(20);
         category.setCategoryName("烧烤店");
         repository.save(category);
     }
